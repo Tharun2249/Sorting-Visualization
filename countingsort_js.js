@@ -123,7 +123,7 @@ for (var i = 0; i < blocks.length; i += 1) {
 	//changing color of freq block to previous one
 	freq_block[i].style.backgroundColor = "darkgray";
 
-	// To wait for .1 sec
+	
 	await new Promise((resolve) =>
 	setTimeout(() => {
 		resolve();
